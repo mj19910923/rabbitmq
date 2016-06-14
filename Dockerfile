@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM registry.aliyuncs.com/hds/ubuntu.base:14.04
 
 # Add files.
 ADD bin/rabbitmq-start /usr/local/bin/
